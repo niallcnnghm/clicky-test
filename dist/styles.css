@@ -1,0 +1,182 @@
+@import url("./fonts/fonts.css");
+body {
+  margin: 0;
+  font-family: "CircularBold";
+}
+
+.header {
+  height: 150px;
+  width: 90%;
+  border-bottom: 1px solid red;
+  margin: 0 auto 20px;
+  font-family: "CircularBold";
+  display: flex;
+  flex-direction: row;
+}
+.header img {
+  height: 80px;
+  margin: auto;
+}
+.header select {
+  display: none;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 80%;
+  font-size: 14px;
+  margin-left: 20px;
+  color: #6db1d4;
+}
+.header ul li {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.header ul li a {
+  text-decoration: none;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url("/images/elena-prokofyeva-17909-unsplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  position: relative;
+}
+.hero--text {
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  width: 70%;
+  max-width: 620px;
+  margin: auto;
+  top: 25%;
+  position: relative;
+}
+.hero--text h2 {
+  font-family: "PrimaveraRegular";
+  font-size: 66px;
+  color: #ffffff;
+  margin: auto;
+  letter-spacing: 3.24px;
+}
+.hero--text p {
+  font-size: 24px;
+  letter-spacing: 1.24px;
+}
+.hero--text button {
+  width: 260px;
+  height: 63px;
+  object-fit: contain;
+  border-radius: 45px;
+  background-color: #ffffff;
+  border-style: solid;
+}
+.hero--text button span {
+  color: #6db1d4;
+  text-transform: uppercase;
+}
+
+.main-content {
+  margin-top: 100px;
+}
+.main-content .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.main-content .container .text,
+.main-content .container .image {
+  width: 50%;
+}
+.main-content .container .text .wrapper {
+  width: 90%;
+}
+.main-content .container .text .wrapper h2 {
+  font-size: 56px;
+  color: #6db1d4;
+}
+.main-content .container .text .wrapper span {
+  font-size: 21px;
+  font-weight: 800;
+}
+.main-content .container .text .wrapper p {
+  font-size: 17px;
+  line-height: 34px;
+  letter-spacing: 0.89px;
+}
+.main-content .container .image {
+  padding-right: 50px;
+}
+
+.owl-carousel {
+  height: 600px;
+}
+.owl-carousel .owl-item {
+  height: 400px;
+  margin-top: 100px;
+  width: 80%;
+  background-size: cover;
+}
+.owl-carousel .owl-item img.background {
+  position: absolute;
+}
+.owl-carousel .owl-item .avi {
+  width: 150px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 10px;
+}
+.owl-carousel .owl-item .card--info,
+.owl-carousel .owl-item .card--footer {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  line-height: 1.7;
+  letter-spacing: 1.05px;
+  text-align: center;
+}
+
+.owl-item.center.active {
+  transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+  }
+  .header img {
+    margin: 20px auto;
+  }
+  .header ul {
+    display: none;
+  }
+  .header select {
+    display: inline-block;
+  }
+
+  .main-content .container {
+    flex-direction: column;
+    max-height: auto;
+  }
+  .main-content .container .text .wrapper,
+.main-content .container .image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .main-content .container .image {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+}

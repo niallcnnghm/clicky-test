@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'CircularBold';
+  src: url('./circular_bold.woff') format('woff'), 
+  url('./circular_bold.woff2') format('woff2'),
+  url('./circular_bold.ttf') format('truetype'), 
+}
+
+@font-face {
+  font-family: 'CircularBook';
+  src: url('./circular_book.woff') format('woff'), 
+  url('./circular_book.woff2') format('woff2'),
+  url('./circular_book.ttf') format('truetype'), 
+}
+
+@font-face {
+  font-family: 'CircularMedium';
+  src: url('./circular_medium.woff') format('woff'), 
+  url('./circular_medium.woff2') format('woff2'),
+  url('./circular_medium.ttf') format('truetype'), 
+}
+
+@font-face {
+  font-family: 'CircularStdBold';
+  src: url('./Circular-Std-Bold.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'CircularStdBook';
+  src: url('./Circular-Std-Book.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'CircularStdMedium';
+  src: url('./Circular-Std-Medium.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'CircularStdMediumItalic';
+  src: url('./Circular-Std-Medium-Italic.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'PrimaveraBold';
+  src: local('./proximanova_bold.woff2') format('woff'), 
+}
+
+@font-face {
+  font-family: 'PrimaveraLight';
+  src: local('./proximanova_light.woff2') format('woff'), 
+}
+
+@font-face {
+  font-family: 'PrimaveraRegular';
+  src: local('./proximanova_regular.woff2') format('woff'), 
+}
+
+@font-face {
+  font-family: 'PrimaveraSemiBold';
+  src: local('./proximanova_semibold.woff2') format('woff'), 
+}
